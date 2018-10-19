@@ -1,0 +1,123 @@
+.container-fluid {
+  padding: 0;
+}
+
+header {
+  background: url('../img/samuel-zeller-17557.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+.nav-item span {
+  background: #00a1eb;
+}
+
+header .heading {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 450px;
+  text-align: center;
+}
+
+header .heading h1,
+h2 {
+  color: #fff;
+}
+
+header .heading h1 {
+  font-weight: 900;
+  word-spacing: 15px;
+  letter-spacing: 10px;
+}
+
+h3.section,
+h4.section,
+h4.overlay,
+h5.section {
+  font-weight: 900;
+}
+
+.nas-row .nas-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.nas-row .nas-img img {
+  width: 100%;
+}
+
+.nas-row .nas-img .caption {
+  position: absolute;
+  bottom: 30px;
+  right: 60px;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus,
+.btn-primary:active:focus {
+  font-weight: 900;
+}
+
+.nas-line {
+  margin-left: 0;
+}
+
+.fig-overlay {
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circles {
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  width: 170px;
+  height: 170px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.kontakt {
+  height: 534px;
+  background-color: #2eb2ef;
+  background-image: url('../img/map.png');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.kontakt-group {
+  height: 100%;
+  width: 100%;
+  margin-top: 15%;
+}
+
+hr.kontakt-line {
+  border-top: 1px solid rgba(256, 256, 256, 0.2);
+  margin-right: 0;
+}
+
+.list-group-item {
+  border: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0;
+}
+
+.footer-col {
+  height: 121px;
+}
