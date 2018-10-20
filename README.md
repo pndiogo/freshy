@@ -27,7 +27,7 @@ Markup practice converting PSD mockup to HTML/CSS
 
 ## Authors
 
-- PSD template: - [DesignLazy](https://www.designlazy.com/freshy-website-template/) by Michal Trykoszko
+- PSD template - [DesignLazy](https://www.designlazy.com/freshy-website-template/) by Michal Trykoszko
 - **Paulo Diogo** - [pndiogo](https://github.com/pndiogo)
 
 ## License

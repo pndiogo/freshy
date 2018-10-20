@@ -1,13 +1,10 @@
-.container-fluid {
-  padding: 0;
-}
-
-header {
+.header {
   background: url('../img/samuel-zeller-17557.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 60vh;
+  min-height: 60vh;
+  width: 100%;
 }
 
 .nav-link {
@@ -35,6 +32,11 @@ header .heading h1 {
   font-weight: 900;
   word-spacing: 15px;
   letter-spacing: 10px;
+  font-size: 4.5rem;
+}
+
+header .heading h2 {
+  font-size: 2rem;
 }
 
 h3.section,
@@ -120,4 +122,18 @@ hr.kontakt-line {
 
 .footer-col {
   height: 121px;
+}
+
+/* Media queries */
+
+@media (max-width: 375px) {
+  header .heading h1 {
+    font-size: 3em;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+  }
+
+  header .heading h2 {
+    font-size: 1.5rem;
+  }
 }
